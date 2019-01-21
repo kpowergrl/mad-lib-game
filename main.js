@@ -14,14 +14,14 @@
     console.log(noun1, noun2, verb);
 
 
-    // //make greeting
-    // var greeting = 'Hello ' + firstName + ' ' + lastName + '!';
-    // console.log(greeting);
+    // make greeting
+    var story = 'Many say that ' + noun1 + ' storming is ' + noun2 + ' and does not ' + verb + '!';
+    console.log(story);
 
 
     // //display greeting
-    // var greeter = document.getElementById('greeter');
-    // greeter.textContent = greeting;
+    var finalstory = document.getElementById('finalstory');
+    finalstory.textContent = story;
         
 
     // remove prompt
@@ -31,4 +31,5 @@
 
 // TODO: validate name inputs
 // TODO: clear inputs after greet?
-    
+// Many say that _________ storming is __________ and
+// does not __________. 
